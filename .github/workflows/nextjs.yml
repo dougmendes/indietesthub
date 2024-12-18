@@ -19,8 +19,8 @@ jobs:
 
       - name: Build Next.js project
         run: npm run build
-
+        
       - name: Deploy to Vercel
         run: |
           npm install -g vercel
-          vercel --token ${{ secrets.VERCEL_TOKEN }} --prod --yes --scope ${{ secrets.VERCEL_ORG_ID }} --project ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel --token ${{ secrets.VERCEL_TOKEN }} --prod --yes --scope ${{ secrets.VERCEL_ORG_ID }}

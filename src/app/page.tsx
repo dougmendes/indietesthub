@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white font-sans">
@@ -17,7 +19,11 @@ export default function Home() {
         <div className="flex gap-4 items-center">
           <button className="text-white px-6 py-2 rounded-md gradient-text-hover">Login</button>
           <button className="text-black font-bold px-6 py-2 rounded-md bg-white gradient-text-hover btn-cyberpunk">
+          <Link
+            href="/signup"
+          >
             <span className="relative z-10">Sign up</span>
+          </Link>
           </button>
         </div>
       </header>

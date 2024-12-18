@@ -34,3 +34,10 @@ body {
     @apply transition-all duration-300 hover:text-transparent hover:bg-gradient-cyberpunk hover:bg-clip-text;
   }
 }
+.react-tel-input .country-list .country {
+  color: black !important; 
+}
+
+.react-tel-input .country-list .country:hover {
+  background-color: #f3f4f6; 
+}

@@ -33,6 +33,9 @@ body {
   .gradient-text-hover {
     @apply transition-all duration-300 hover:text-transparent hover:bg-gradient-cyberpunk hover:bg-clip-text;
   }
+  .gradient-text {
+    @apply transition-all duration-300 text-transparent bg-gradient-cyberpunk bg-clip-text;
+  }
 }
 .react-tel-input .country-list .country {
   color: black !important; 
@@ -40,4 +43,14 @@ body {
 
 .react-tel-input .country-list .country:hover {
   background-color: #f3f4f6; 
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s step-start infinite;
 }

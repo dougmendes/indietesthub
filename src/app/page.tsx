@@ -42,7 +42,7 @@ export default function Home() {
       {/* Header */}
       <header className="flex justify-between items-center px-8 py-4">
         {/* Logo */}
-        <div className="text-2xl font-bold">IndieTestHub</div>
+        <div id="logo" className="text-2xl font-bold">IndieTestHub</div>
         
         {/* Navigation */}
         <nav className="flex gap-6 items-center">

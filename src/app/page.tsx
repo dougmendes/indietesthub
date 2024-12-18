@@ -4,14 +4,15 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const words = ["Gamers", "Testers", "Explorers", "Bug Hunters"," Innovators", "Builders"];
+
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
+    const words = ["Gamers", "Testers", "Explorers", "Bug Hunters"," Innovators", "Builders"];
     const word = words[currentWordIndex];
-    let typingSpeed = isDeleting ? 50 : 100;
+    const typingSpeed = isDeleting ? 50 : 100;
 
     const timer = setTimeout(() => {
       setDisplayedText((prev) => {

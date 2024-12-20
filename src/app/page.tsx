@@ -56,7 +56,7 @@ export default function Home() {
           <Link
             href="/signin"
           >
-            <button className="text-white px-6 py-2 rounded-md gradient-text-hover">Login</button>
+            <button id="btn-login" className="text-white px-6 py-2 rounded-md gradient-text-hover">Login</button>
           </Link>
           <button className="text-black font-bold px-6 py-2 rounded-md bg-white gradient-text-hover btn-cyberpunk">
           <Link

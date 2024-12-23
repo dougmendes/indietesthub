@@ -4,6 +4,7 @@ import React from 'react';
 import Sidebar from './components/Sidebar';
 import JobList from './components/JobList';
 import { TbDoorExit } from "react-icons/tb";
+import "./styles/page.css"
 import Link from "next/link";
 
 const Home: React.FC = () => {
@@ -20,24 +21,10 @@ const Home: React.FC = () => {
           </Link>  
         </div>
       </header>
-      <main className="main-content">
+      <main className="user-home-content">
         <Sidebar />
         <JobList />
       </main>
-      <style jsx>{`
-        .container {
-          display: flex;
-          flex-direction: column;
-          min-height: 100vh;
-          font-family: Arial, sans-serif;
-        }
-        .main-content {
-          display: flex;
-          flex: 1;
-          padding: 2rem;
-          gap: 2rem;
-        }
-      `}</style>
     </div>
   );
 };

@@ -1,0 +1,130 @@
+/* General Container */
+.star-list {
+    position: relative;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #14141f;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  /* Link Hover Effect */
+  .link-hover {
+    color: #00bcd4;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .link-hover:hover {
+    color: #0288d1;
+  }
+  
+  /* Navigation Buttons */
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.5rem;
+    background-color: #424242;
+    color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 10;
+  }
+  
+  .nav-button:hover {
+    background-color: #616161;
+  }
+  
+  .prev-button {
+    left: 1rem;
+  }
+  
+  .next-button {
+    right: 1rem;
+  }
+  
+  /* Star Project Container */
+  .star-project {
+    padding: 1.5rem;
+    background-color: #2e2e38;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+  }
+  
+  .project-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Tasks Container */
+  .tasks-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+  }
+  
+  /* Task Card */
+  .task {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .task-title {
+    font-weight: 600;
+  }
+  
+  .task-description {
+    font-size: 0.875rem;
+    color: #757575;
+  }
+  
+  /* Status Indicators */
+  .status-indicator {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+  }
+  
+  .status-done {
+    background-color: #4caf50;
+  }
+  
+  .status-in-progress {
+    background-color: #ffeb3b;
+  }
+  
+  .status-todo {
+    background-color: #2196f3;
+  }
+  
+  .status-default {
+    background-color: #9e9e9e;
+  }
+  

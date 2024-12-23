@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .user-home-content {
+    @apply flex flex-1 p-8 gap-8
+  }
+
+
+}

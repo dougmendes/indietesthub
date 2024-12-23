@@ -48,12 +48,14 @@ export default function SignIn() {
                 className="w-full p-2 border rounded-md text-black"
               />
             </div>
-            <button
-              type="submit"
-              className="w-full bg-black text-white py-2 px-4 rounded-md hover:shadow-neon hover:bg-gradient-cyberpunk transition-all duration-300"
-            >
-              Sign In
-            </button>
+            <Link href="/user-home">
+              <button
+                type="submit"
+                className="w-full bg-black text-white py-2 px-4 rounded-md hover:shadow-neon hover:bg-gradient-cyberpunk transition-all duration-300"
+              >
+                Sign In
+              </button>
+            </Link>
           </form>
         </div>
       </main>

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sidebar-bg {
+    @apply relative bg-black 
+  }
+  .sidebar-cyberpunk {
+    @apply relative text-white font-bold rounded-md bg-[#14141F] border-2 border-[#2E2E3E] 
+           p-6 shadow-md mb-8;
+  }
+
+  .profile-section {
+    @apply text-center p-8 relative text-white font-bold rounded-md bg-[#14141F]  mb-8
+     ;
+  }
+  .profile-picture {
+    @apply w-24 h-24 rounded-full overflow-hidden border-4 border-[#8A2BE2] mx-auto mb-4;
+    box-shadow: 0 0 10px 3px rgba(255, 0, 255, 0.5); /* Efeito neon discreto */
+  }
+  .profile-picture img {
+    @apply w-full h-full object-cover; /* Garante que a imagem preencha a moldura */
+  }
+  .profile-section h2 {
+    @apply text-xl text-white mb-2;
+  }
+  .profile-section p {
+    @apply text-sm text-gray-400;
+  }
+  .profile-section button {
+    @apply mt-4 px-4 py-2 bg-[#0070f3] text-white rounded-md transition duration-300;
+  }
+  .profile-section button:hover {
+    @apply bg-[#005bb5];
+  }
+
+  .project-section {
+    @apply flex flex-col justify-between text-xl p-5 relative text-white rounded-md bg-[#14141F] cursor-pointer mb-6 ;
+  }
+
+  .project-dropdown {
+    @apply flex mt-4  text-base pt-2 justify-between;
+  }
+  .project-dropdown a {
+    @apply text-white font-medium mb-2 ;
+  }
+
+
+}

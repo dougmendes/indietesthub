@@ -22,10 +22,10 @@ body {
 
 @layer components {
   .btn-cyberpunk {
-    @apply relative text-black font-bold px-6 py-2 rounded-md bg-white border-2 border-transparent transition-all duration-300 
-           hover:text-white hover:bg-black hover:shadow-neon before:absolute before:inset-0 before:rounded-md 
+    @apply relative text-black font-bold px-6 py-2 rounded-md bg-white border-2 border-transparent
+           hover:bg-white hover:text-transparent hover:gradient-text hover:shadow-neon before:absolute before:inset-0 before:rounded-md 
            before:bg-gradient-cyberpunk before:blur-[8px] before:opacity-0 hover:before:opacity-100 
-           before:-z-10 before:transition-all before:duration-300;
+           before:-z-10 before:transition-all before:duration-300 ;
   }
 }
 
@@ -40,6 +40,8 @@ body {
 .react-tel-input .country-list .country {
   color: black !important; 
 }
+
+
 
 .react-tel-input .country-list .country:hover {
   background-color: #f3f4f6; 

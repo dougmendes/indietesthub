@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Home: React.FC = () => {
   return (
-    <div className="container bg-black">
+    <div className="min-h-screen bg-black">
       <header className="flex justify-between items-center px-8 py-4">
         {/* Logo */}
         <div id="logo" className="text-2xl font-bold">IndieTestHub</div>

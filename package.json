@@ -10,7 +10,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@vercel/speed-insights": "^1.1.0",
+    "@vercel/speed-insights": "^1.2.0",
     "glob": "^11.0.0",
     "lru-cache": "^11.0.2",
     "msw": "^2.7.0",

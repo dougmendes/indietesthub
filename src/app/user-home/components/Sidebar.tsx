@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import "../styles/sidebar.css";
 import Image from "next/image";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import Link from "next/link";
 
 const Sidebar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +27,9 @@ const Sidebar: React.FC = () => {
         </div>
         <h2>Douglas Mendes</h2>
         <p>Computer Engineer</p>
-        <button>Complete your profile</button>
+        <Link href="profile">
+          <button>Complete your profile</button>
+        </Link>
       </div>
       <div className="project-section">
         <div className="flex justify-between items-center" onClick={toggleDropdown}>

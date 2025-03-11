@@ -50,6 +50,6 @@
     "ts-jest": "^29.2.5",
     "typescript": "^5",
     "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^2.1.8"
+    "vitest": "^3.0.8"
   }
 }
